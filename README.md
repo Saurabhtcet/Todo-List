@@ -34,7 +34,7 @@ A simple web-based To-Do List application that allows users to add, view, manage
 - Tasks are displayed in sorted order based on the due date.
 
 ## Project Structure
-/project-directory |-- index.html # Main HTML file |-- style.css # Styling file for the application |-- script.js # JavaScript logic for the application |-- README.md # Project documentation (this file)
+/project-directory |-- index.html # Main HTML file |-- add-task.html # Page to add a new task |-- edit-task.html # Page to edit an existing task |-- style.css # Styling file for the application |-- script.js # JavaScript logic for the application |-- README.md # Project documentation (this file)
 
 ## Files Overview
 - **index.html**: Contains the basic structure of the application, including forms for adding and editing tasks, and sections to display tasks.
