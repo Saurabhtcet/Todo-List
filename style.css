@@ -1,0 +1,55 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task.future {
+    color: black;
+}
+
+.task.past {
+    color: red;
+}
+
+.task.today {
+    color: orange;
+}
+
+.task.complete {
+    color: green;
+    text-decoration: line-through;
+}
+
